@@ -1,0 +1,15 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+#base{
+    -fx-background-color: transparent
+}
+#bokotra{
+    -fx-background-image: url("../img/button.png");
+    -fx-background-repeat: space;
+    -fx-background-color:transparent;
+}

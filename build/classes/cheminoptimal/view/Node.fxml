@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="base" fx:id="nodeBox" alignment="CENTER" prefHeight="70.0" prefWidth="60.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cheminoptimal.model.Node">
+    <stylesheets>
+        <URL value="@node.css" />
+    </stylesheets>
+
+    <children>
+      <Label fx:id="lambdaLbl" alignment="CENTER" prefHeight="15.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Button id="bokotra" fx:id="arret" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="48.0" prefWidth="60.0" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="-5.0" left="8.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="404.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cheminoptimal.controller.About">
+    <stylesheets>
+        <URL value="@about.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="109.0" layoutY="219.0" prefHeight="15.0" prefWidth="215.0" text="Copyright © 2015 Eight®, Inc." />
+      <Button fx:id="closeBtn" layoutX="174.0" layoutY="465.0" mnemonicParsing="false" onAction="#closeAbout" text="Close" />
+      <ImageView fitHeight="167.0" fitWidth="346.0" layoutX="41.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="41.0" AnchorPane.rightAnchor="41.1087646484375" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../img/splash.png" />
+         </image></ImageView>
+      <Label layoutX="53.0" layoutY="161.0" prefHeight="30.0" prefWidth="316.0" text="Chemin Optimal 0.9.9">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutY="317.0" prefHeight="142.0" prefWidth="401.0" text="Chemin optimal is free software; you can redistribute it&#10;and/or modify it under the terms of the GNU General&#10;Public License as published by the Free Software &#10;Foundation; either version 2 of the License,&#10;or (at your option) any later version.&#10;&#10;Chemin optimal is distributed in the hope that &#10;it will be useful, but WITHOUT ANY WARRANTY; &#10;without even the implied warranty of MERCHANTABILITY &#10;or FITNESS FOR A PARTICULAR PURPOSE.&#10;See the GNU General Public License for more details.&#10;&#10;You should have received a copy of the GNU General &#10;Public License along with Chemin optimal;&#10;if not, write to the Free Software Foundation, Inc.,&#10;51 Franklin Street, Fifth Floor,&#10;Boston, MA 02110-1301, USA." />
+      <Label layoutX="11.0" layoutY="262.0" text="Written by:" />
+      <Hyperlink layoutX="84.0" layoutY="258.0" onAction="#gotoBrvMail" pickOnBounds="false" prefHeight="23.0" prefWidth="277.0" text="RANDRIAMBOLOLONA Rova Heritiana" textFill="#467a8d" underline="true" />
+      <Hyperlink layoutX="85.0" layoutY="283.0" onAction="#gotoMauyzMail" prefHeight="23.0" prefWidth="251.0" text="TSIORINAMBININA Pierre Moïse" textFill="#467a8d" underline="true" />
+      <Hyperlink layoutX="78.0" layoutY="234.0" onAction="#gotoChoWebSite" prefHeight="23.0" prefWidth="261.0" text="https://cheminoptimal.sourcforge.net" textFill="#467a8d" underline="true" />
+      <Label layoutX="55.0" layoutY="191.0" text="Find the optimal path using FORD algorithm." />
+   </children>
+</AnchorPane>

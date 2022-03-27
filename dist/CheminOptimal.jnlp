@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CheminOptimal.jnlp">
+  <information>
+    <title>CheminOptimal</title>
+    <vendor>Eight(R), Inc.</vendor>
+    <description>Allow to find the optimal path(s) using FORD algorithm</description>
+    <icon href="src/cheminoptimal/img/splash.png"  kind="splash"/>
+    <icon href="src/cheminoptimal/img/icone.png" />
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CheminOptimal.jar" size="141043" download="eager" />
+    <jar href="lib/controlsfx-8.40.9.jar" size="1016589" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CheminOptimal" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cheminoptimal.Main"  name="CheminOptimal" />
+  <update check="always"/>
+</jnlp>
